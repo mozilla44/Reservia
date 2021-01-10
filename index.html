@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,40 @@
     <link rel="icon" type="image/png" href="images/logo/Reservia@3x.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 </head>
+
 <body>
     <header id="header">
-        <a href="#"></a><img src="images/logo/Reservia.svg"></a>
+        <a href="/"><img src="images/logo/Reservia.svg"></a>
         <ul>
             <li><a href="">Hébergements</a></li>
             <li><a href="">Activités</a></li>
             <li><a href="">S'inscrire</a></li>
         </ul>
     </header>
-    <div id="slogan">
-        <h4>Trouvez votre hébergement pour des vacances de rêve</h4>
-        <p>En plein centre ville ou en pleine nature</p>
-    </div>
-    <div id="barre-recherche">
-        <i class="fas fa-map-marker-alt"></i>
-        <input type="text">
-        <input type="submit" value="Rechercher">
-    </div>
-    <div id="filtres">
-        <h4>Filtres</h4>
-        <button class="btn-filtre"></button>
-    </div>
-
+    <main>
+        <div id="slogan">
+            <h4>Trouvez votre hébergement pour des vacances de rêve</h4>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div id="barre-recherche">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text">
+            <input type="submit" value="Rechercher">
+        </div>
+        <div id="filtres">
+            <h4>Filtres</h4>
+            <button class="btn-filtre" onclick="window.location.href='http://example.com';"><i
+                    class="fas fa-money-bill-wave">Économique</i></button>
+            <button class="btn-filtre" onclick="window.location.href='http://example.com';"><i
+                    class="fas fa-child"></i>Familial</button>
+            <button class="btn-filtre" onclick="window.location.href='http://example.com;"><i
+                    class="fas fa-heart"></i>Romantique</button>
+            <button class="btn-filtre" onclick="window.location.href='http://example.com';"><i
+                    class="fas fa-dog"></i>Animaux acceptés</button>
+        </div>
+    </main>
+    <aside></aside>
+    <footer></footer>
 </body>
+
 </html>
