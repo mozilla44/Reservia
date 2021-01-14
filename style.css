@@ -21,3 +21,7 @@ footer {
 footer ul {
     padding-left: 0;
 }
+
+.footer1,.footer2,.footer3 {
+    width: 30%;
+}
