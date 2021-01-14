@@ -49,8 +49,6 @@ header li div {
 
 .topmenu  {
     padding-left: 700px;
-    
-    
 }
 
 .topmenu li {
@@ -59,10 +57,9 @@ header li div {
     padding-top: 0px;
     outline: 3px solid red;
     margin-top: 400px;
-    
-    
-}.topmenu li:hover {
-    border-top: 1px solid black;
+}
 
+.logo {
+    padding: 15px;
 }
 
