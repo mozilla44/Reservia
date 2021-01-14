@@ -3,3 +3,8 @@ ul, ul a {
     list-style-type: none;
     text-decoration: none;
 }
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
