@@ -17,3 +17,8 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
