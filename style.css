@@ -25,3 +25,20 @@ footer ul {
 .footer1,.footer2,.footer3 {
     width: 30%;
 }
+
+.logo {
+    float: left;
+}
+
+header {
+    display: flex;
+}
+header li {
+    display: inline;
+    padding: 2px;
+}
+
+header li div {
+    display: inline;
+}
+
