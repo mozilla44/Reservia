@@ -7,4 +7,13 @@ ul, ul a {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #F2F2F2;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
