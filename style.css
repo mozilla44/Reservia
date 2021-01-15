@@ -8,5 +8,34 @@ ul {
 }
 
 li a {
-    text-decoration: none;
+    text-decoration: none;   
 }
+
+/******************************   HEADER   ***********************/
+
+header {
+    outline: 3px solid red;
+    display: flex;
+}
+
+nav {
+    outline: 7px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topmenu {
+    display: flex;
+}
+
+.topmenu a {
+    padding: 0 25px;
+}
+
+.topmenu li {
+    outline: 3px solid orange;
+}
+    
+
+
