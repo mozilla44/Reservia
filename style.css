@@ -64,6 +64,7 @@ ul = hauteur de la nav
 
 #slogan {
     margin-left: 15px;
+    margin-bottom: 20px;
 }
 
 #slogan h1 {
@@ -75,4 +76,15 @@ ul = hauteur de la nav
     font-size: 12px;
     font-weight: 100;
 }
+
+/************************************************* BARRE RECHERCHE ********************************/
+
+#recherche {
+    margin-left: 15px;
+    width: 250px;
+    outline: 3px solid;                             /*  bouton non foctionel mais doit-il etre un bouton html? */
+    display: flex;
+}                               
+
+
 
