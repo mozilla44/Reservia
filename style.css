@@ -19,6 +19,7 @@ header {
     display: flex;
     margin-top: 0px;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -50,7 +51,8 @@ nav a:hover {
 }
  
 .logo {
-    margin: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 /*comment faire pour que la hauteur des 
@@ -58,5 +60,19 @@ ul = hauteur de la nav
 (pour pouvoir faire le a:hover boredr-top**/
 
 
-/*********************************************** FOOTER **********************************/
+/*********************************************** slogan **********************************/
+
+#slogan {
+    margin-left: 15px;
+}
+
+#slogan h1 {
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+
+#slogan p {
+    font-size: 12px;
+    font-weight: 100;
+}
 
