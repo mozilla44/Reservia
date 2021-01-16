@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin-top: 1px;
 }
 
 ul {
@@ -13,29 +14,49 @@ li a {
 
 /******************************   HEADER   ***********************/
 
+
 header {
-    outline: 3px solid red;
     display: flex;
+    margin-top: 0px;
+    padding-top: 20px;
 }
+
 
 nav {
-    outline: 7px solid green;
-    width: 100%;
     display: flex;
     justify-content: flex-end;
-}
-
-.topmenu {
-    display: flex;
-}
-
-.topmenu a {
-    padding: 0 25px;
-}
-
-.topmenu li {
-    outline: 3px solid orange;
-}
+    width: 100%;
     
+}
+nav ul {
+    display: flex;
+    margin-right: 80px;
+}
 
+nav ul li {
+    padding: 0 30px;
+}
+#sincrire {
+    color: #0065FC;
+    font-weight: 600;
+}
+
+nav a {
+    color: inherit;
+}
+
+nav a:hover {
+    color: #0065FC;
+}
+ 
+.logo {
+    margin: 10px;
+}
+
+/*comment faire pour que la hauteur des 
+ul = hauteur de la nav 
+(pour pouvoir faire le a:hover boredr-top**/
+
+
+/*********************************************** FOOTER **********************************/
 
