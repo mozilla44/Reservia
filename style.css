@@ -82,9 +82,9 @@ ul = hauteur de la nav
 #recherche {
     margin-left: 15px;
     width: 250px;
-    outline: 3px solid;                             /*  bouton non foctionel mais doit-il etre un bouton html? */
     display: flex;
-}                               
+}                                               /*  bouton non foctionel mais doit-il etre un bouton html? */                               
 
 
+/***************************************************** FILTRES ******************************************************/
 
