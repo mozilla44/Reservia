@@ -123,6 +123,7 @@ header a {
 .searchbox::placeholder {
     color: black;
     font-weight: bold;
+    opacity: 1;
 }
 /**** comment enlever boder left barre de recherche? 
 
