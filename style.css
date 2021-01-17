@@ -17,47 +17,59 @@ li a {
 
 header {
     display: flex;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-left: 30px;
+    margin-top: -4px;
+    margin-bottom: 50px;
 }
-
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    
+justify-content: flex-end;
+width: 100%;
+flex-wrap: wrap;
 }
+
 nav ul {
     display: flex;
-    margin-right: 80px;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2px;
+    padding-top: x;
 }
-
-nav ul li {
+ul li {
     padding: 0 30px;
-}
-#sincrire {
-    color: #0065FC;
-    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
 }
 
-nav a {
+#header a {
     color: inherit;
 }
 
-nav a:hover {
+#header ul a:hover {
+    border-top: 3px solid #0065FC;
     color: #0065FC;
 }
- 
-.logo {
-    margin-left: 15px;
-    margin-top: 10px;
+
+header a {
+     padding-top: 30px;
+ }
+
+ #sincrire {
+    display: flex;
+}
+.logo:hover {
+    border: none;
 }
 
-/*comment faire pour que la hauteur des 
-ul = hauteur de la nav 
-(pour pouvoir faire le a:hover boredr-top**/
+.logo {
+    padding-top: -2px;
+}
+
+#sincrire a {
+    color: #0065FC;
+    font-weight: 900;
+}
 
 
 /*********************************************** slogan **********************************/
