@@ -83,8 +83,31 @@ ul = hauteur de la nav
     margin-left: 15px;
     width: 250px;
     display: flex;
-}                                               /*  bouton non foctionel mais doit-il etre un bouton html? */                               
+    border-left: none;
+    outline: none
+}                                                                           
 
+.search {
+  background-color: #0065FC;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius:  0px 12px 12px 0px;
+}
+
+#geoloc {
+    display: flex;
+    align-items: center;                            
+    padding: 0px 12px 0px 12px;
+    background-color: #F2F2F2;
+    border-radius: 12px 0px 0px 12px;
+}
+/**** comment enlever boder left barre de recherche? 
 
 /***************************************************** FILTRES ******************************************************/
+
+
 
