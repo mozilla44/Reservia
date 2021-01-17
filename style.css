@@ -81,8 +81,6 @@ ul = hauteur de la nav
 
 .recherche {
     display: inline-flex;
-    flex: 1 1 300px;
-    position: relative;
     border: 1px solid #F2F2F2;
     border-radius: 10px;
     overflow: hidden;
