@@ -75,7 +75,7 @@ header a {
 /*********************************************** slogan **********************************/
 
 #slogan {
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 20px;
 }
 
@@ -96,7 +96,8 @@ header a {
     border: 1px solid #F2F2F2;
     border-radius: 10px;
     overflow: hidden;
-    margin-left: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .searchicon {
@@ -126,6 +127,17 @@ header a {
 /**** comment enlever boder left barre de recherche? 
 
 /***************************************************** FILTRES ******************************************************/
+
+#filtres {
+    margin-left: 30px;
+    display: flex;
+    width: 100%;
+}
+
+#filtres p {
+    font-weight: bolder;
+    margin-right: 30px;
+}
 
 
 
