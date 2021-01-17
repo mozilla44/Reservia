@@ -134,19 +134,34 @@ header a {
 }
 
 /***************************************************** FILTRES ******************************************************/
+#filtres {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.bouton-filtres {
+    display: flex;
+    border: 1px solid pink;
+    border-radius: 15px 15px;
+    align-items: center;
+    height: 30px;
+    margin: 20px;
+}
+#filtres i.fas {
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px red;
+    padding: 0.5em 0.6em;
+}
+
+.bouton-filtres p {
+    padding: 10px;
+}
 
 #filtres {
-    margin-left: 30px;
-    display: flex;
-    width: 100%;
+    margin-bottom: 30px;
 }
-
-#filtres p {
-    font-weight: bolder;
-    margin-right: 30px;
-}
-
-
 
 
 /****************************************** FOOTER **************************/
@@ -161,7 +176,6 @@ footer {
     padding-bottom: 15px;
 }
 
-/**************** comment retirer marge footer*******/
 .footer3 { 
     margin-right: 200px;
 }
