@@ -1,9 +1,16 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin-top: 1px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-ul {
+html {
+    height: 100%;
+    width: 100%;
+}
+
+ ul {
     list-style-type: none;
     padding-left: 0;
 }
@@ -34,9 +41,9 @@ nav ul {
     justify-content: flex-end;
     width: 100%;
     margin-top: 2px;
-    padding-top: x;
+    padding-right: 20px;
 }
-ul li {
+header ul li {
     padding: 0 30px;
     display: flex;
     justify-content: flex-end;
@@ -140,4 +147,21 @@ header a {
 }
 
 
+/****************************************** FOOTER **************************/
 
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    background-color: red;
+}
+
+/**************** comment retirer marge footer*******/
+.footer3 { 
+    margin-right: 200px;
+}
+
+.footer1 {
+    margin-left: 35px;
+}
