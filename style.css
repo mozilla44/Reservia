@@ -147,6 +147,8 @@ header a {
 }
 
 
+
+
 /****************************************** FOOTER **************************/
 
 footer {
@@ -154,7 +156,9 @@ footer {
     width: 100%;
     justify-content: space-between;
     height: 100%;
-    background-color: red;
+    background-color: #F2F2F2;
+    margin-bottom: -10px;
+    padding-bottom: 15px;
 }
 
 /**************** comment retirer marge footer*******/
