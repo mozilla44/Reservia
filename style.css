@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    margin-top: 1px;
+    margin: 0;
 }
 
 ul {
@@ -16,48 +16,54 @@ li a {
 
 
 header {
-    display: flex;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 0;
+    display: flex; 
+    margin-bottom: 50px;
 }
 
-
 nav {
+    display: flex;
+justify-content: flex-end;
+width: 100%;
+
+}
+
+nav ul {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     
+    margin-top: 2px;
+    padding-top: x;
 }
-nav ul {
-    display: flex;
-    margin-right: 80px;
-}
-
-nav ul li {
+ul li {
     padding: 0 30px;
-}
-#sincrire {
-    color: #0065FC;
-    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
 }
 
-nav a {
-    color: inherit;
+#header ul a:hover {
+    border-top: 3px solid #0065FC;
 }
 
-nav a:hover {
-    color: #0065FC;
-}
- 
-.logo {
-    margin-left: 15px;
-    margin-top: 10px;
+header ul {
+    margin-top: 0;
 }
 
-/*comment faire pour que la hauteur des 
-ul = hauteur de la nav 
-(pour pouvoir faire le a:hover boredr-top**/
+ header a {
+     padding-top: 30px;
+ }
+
+ nav a 
+
+ .logo a:hover {
+    border: none;
+ }
+ .logo {
+     padding-left: 30px;
+     
+ }
+
 
 
 /*********************************************** slogan **********************************/
