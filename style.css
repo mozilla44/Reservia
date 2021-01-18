@@ -125,6 +125,7 @@ header a {
     border-radius: 0;
     color: white;
     background-color: #0065FC;
+    border-radius:0px 0px 10px;
 }
 
 .searchbox::placeholder {
