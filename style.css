@@ -143,6 +143,9 @@ header a {
     align-items: center;
     margin-left: 30px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 50px;
     }
 
 .bouton-filtres {
@@ -165,6 +168,7 @@ header a {
     align-items: center;
     background-color: #DEEBFF;
     color: #0065FC;
+    margin-left: -1px;
 
 }
 
@@ -175,6 +179,12 @@ header a {
 
 #filtres p {
     font-weight: bold;
+}
+
+/******************************************nombre logements *********************/
+
+#nombre-logements  {
+    padding-left: 30px;
 }
 
 /****************************************** FOOTER **************************/
@@ -196,3 +206,5 @@ footer {
 .footer1 {
     margin-left: 35px;
 }
+
+
