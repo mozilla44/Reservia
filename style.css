@@ -43,6 +43,7 @@ nav ul {
     width: 100%;
     margin-top: 2px;
     padding-right: 20px;
+    flex-wrap: wrap-reverse;
 }
 header ul li {
     padding: 0 30px;
