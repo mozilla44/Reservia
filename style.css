@@ -143,13 +143,11 @@ header a {
     flex-direction: column;
     flex flex-wrap: wrap;
     width: 90%;
-    outline: 3px solid ;
     margin-left: 30px;
 }
 #filtres2 {
     display: flex;
     width: 100%;
-    outline: 3px solid 
 }
 
 #filtres3 {
@@ -160,7 +158,6 @@ header a {
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 15px;
-    outline: 3px solid blue
 }
 
 .bouton-filtres {
