@@ -137,16 +137,31 @@ header a {
 }
 
 /***************************************************** FILTRES ******************************************************/
+
 #filtres {
     display: flex;
-    height: 30px;
+    flex-direction: column;
+    flex flex-wrap: wrap;
+    width: 90%;
+    outline: 3px solid ;
+    margin-left: 30px;
+}
+#filtres2 {
+    display: flex;
+    width: 100%;
+    outline: 3px solid 
+}
+
+#filtres3 {
+    display: flex;
     align-items: center;
     margin-left: 30px;
     margin-bottom: 30px;
     flex-wrap: wrap;
     width: 100%;
-    margin-bottom: 50px;
-    }
+    margin-bottom: 15px;
+    outline: 3px solid blue
+}
 
 .bouton-filtres {
     display: flex;
