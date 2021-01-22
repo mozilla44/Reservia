@@ -181,7 +181,6 @@ header a {
     background-color: #DEEBFF;
     color: #0065FC;
     margin-left: -1px;
-
 }
 
 .bouton-filtres p {
@@ -193,9 +192,54 @@ header a {
     font-weight: bold;
 }
 
+
 /******************************************nombre logements *********************/
+#nombre-logements {
+    display: flex;
+    align-items: center;
+}
+
+#nombre-logements p {
+    margin-left: 12px
+}
+
+#info i {
+    font-size: 12px;
+    color: #0065FC;
+}
+
+#info {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+}
 
 
+
+/**************************************** ARTICL +ASIDE **************************/
+
+#aparts {
+    background-color: red;
+    display: flex;
+}
+
+article {
+    background-color: yellow;
+    width: 70%;
+}
+
+aside {
+    background-color: green;
+    width: 30%;
+}
+
+
+article figure 
 
 /****************************************** FOOTER **************************/
 
