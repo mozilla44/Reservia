@@ -193,7 +193,7 @@ header a {
 }
 
 
-/******************************************nombre logements *********************/
+/****************************************** nombre logements *********************/
 #nombre-logements {
     display: flex;
     align-items: center;
@@ -221,10 +221,12 @@ header a {
     border-radius: 15px;
 }
 
-/**************************************** ARTICL +ASIDE **************************/
+/**************************************** ARTICLE  **************************/
 
 #aparts {
     display: flex;
+    gap: 30px;
+    
 }
 
 article h3, article p, article i{
@@ -232,33 +234,30 @@ article h3, article p, article i{
 }
 
 article {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
+    margin-left: 30px;
 }
 
-aside {
-    width: 30%;
-    background-color: salmon;
-}
 article figure {
     width: 200px;
     height: 150px;
-    object-fit: contain;
     border-radius: 15px;
     background-color: white;
     overflow: hidden;
     line-height: 5px;
+    margin: 20px;
 }
 
 article figure img {
     width: 97%;
-    min-height: 50%;
-    max-height: 40%;
+    min-height: 40%;
+    max-height: 50%;
     object-fit: cover;
     display: block;
     margin-right: auto;
@@ -276,18 +275,69 @@ article figure img {
     margin-right: 10px;
 }
 
-figcaption {
+article figcaption {
     padding-left: 10px;
 }
 
+
+/******************************************* ASIDE ****************************/
+
 aside {
-    width: 30%;
+    width: 33%;
+    background-color:  #F2F2F2;
+    border-radius: 15px;
 }
+
+aside figure {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: 120px;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+aside figure img {
+    display: block;
+    width: 35%;
+    height: 93%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+aside figcaption {
+    margin-left: 10px;
+    align-items: center;
+}
+
+aside figcaption i {
+   
+}
+
 #populaires2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
+
+#populaires2 i {
+    margin-left: ;
+}
+
+aside h3, aside p, aside i{
+    font-size: 12px;
+}
+
+figcaption i {
+    color: #0065FC;
+}
+
 
 
 
