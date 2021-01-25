@@ -252,6 +252,11 @@ article figure {
     overflow: hidden;
     line-height: 5px;
     margin: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+   
 }
 
 article figure img {
@@ -296,6 +301,10 @@ aside figure {
     width: 80%;
     background-color: white;
     border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
 }
 
 aside figure img {
@@ -304,7 +313,7 @@ aside figure img {
     height: 93%;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2px;
+    margin-left: 4px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
