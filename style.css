@@ -235,11 +235,15 @@ article h3, article p, article i{
 
 article h2 {
     margin-left: 5%;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 #affplus {
     margin-left: 5%;
     font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 900;
 }
 
 article {
@@ -355,6 +359,13 @@ figcaption i {
     color: #0065FC;
 }
 
+aside h2, aside i {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/****************************************** Activites *************************/
 
 
 
