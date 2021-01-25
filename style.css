@@ -225,6 +225,7 @@ header a {
 
 #aparts {
     display: flex;
+    gap: 30px;
     
 }
 
@@ -282,7 +283,7 @@ article figcaption {
 /******************************************* ASIDE ****************************/
 
 aside {
-    width: 30%;
+    width: 33%;
     background-color:  #F2F2F2;
     border-radius: 15px;
 }
