@@ -364,6 +364,10 @@ aside h2, aside i {
     font-weight: 900;
 }
 
+aside figcaption i {
+    font-size: 12px;
+}
+
 
 /****************************************** Activites *************************/
 
