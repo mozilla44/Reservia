@@ -232,7 +232,7 @@ article h3, article p, article i{
 }
 
 article {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -248,11 +248,11 @@ aside {
 article figure {
     width: 200px;
     height: 150px;
-    object-fit: contain;
     border-radius: 15px;
     background-color: white;
     overflow: hidden;
     line-height: 5px;
+    margin: 20px;
 }
 
 article figure img {
@@ -274,6 +274,7 @@ article figure img {
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
+    outline: 3px solid 
 }
 
 figcaption {
