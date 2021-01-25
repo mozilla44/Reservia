@@ -367,8 +367,43 @@ aside h2, aside i {
 
 /****************************************** Activites *************************/
 
+#activites {
+    display: flex;
+    flex-direction: column;
+    outline: 3px solid 
+}
+
+#fig-act {
+    display: flex;
+}
+
+.img1 figure {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+}
 
 
+
+.img1 figure img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.img1 figcaption h3 {
+    margin-left: 15px;
+    font-weight: 900;
+}
    
 /****************************************** FOOTER **************************/
 
