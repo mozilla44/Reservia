@@ -370,7 +370,6 @@ aside h2, aside i {
 #activites {
     display: flex;
     flex-direction: column;
-    outline: 3px solid 
 }
 
 #fig-act {
