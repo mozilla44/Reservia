@@ -223,8 +223,66 @@ header a {
 
 /**************************************** ARTICL +ASIDE **************************/
 
+#aparts {
+    display: flex;
+}
 
+article h3, article p, article i{
+    font-size: 12px;
+}
 
+article {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+aside {
+    width: 30%;
+    background-color: salmon;
+}
+article figure {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    line-height: 5px;
+}
+
+article figure img {
+    width: 97%;
+    min-height: 50%;
+    max-height: 40%;
+    object-fit: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#fig-heb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+figcaption {
+    padding-left: 10px;
+}
+
+aside {
+    width: 30%;
+}
 #populaires2 {
     display: flex;
     flex-direction: row;
