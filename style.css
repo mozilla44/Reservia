@@ -230,7 +230,6 @@ header a {
 #aparts {
     display: flex;
     gap: 30px;
-    
 }
 
 article h3, article p, article i{
@@ -255,8 +254,6 @@ article {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    margin-left: 10px;
-    margin-right: 10px;
     border-radius: 15px;
     
 }
