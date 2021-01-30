@@ -237,13 +237,13 @@ article h3, article p, article i{
 }
 
 article h2 {
-    margin-left: 5%;
+    margin-left: 25px;
     font-size: 20px;
     font-weight: 900;
 }
 
 #affplus {
-    margin-left: 5%;
+    margin-left: 25px;
     font-size: 16px;
     margin-bottom: 30px;
     font-weight: 900;
@@ -290,7 +290,6 @@ article figure img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
 }
 
 article figcaption {
@@ -337,10 +336,6 @@ aside figcaption {
     align-items: center;
 }
 
-aside figcaption i {
-   
-}
-
 #populaires2 {
     display: flex;
     flex-direction: row;
@@ -375,6 +370,7 @@ aside figcaption i {
 #activites {
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 
 #fig-act {
@@ -382,8 +378,8 @@ aside figcaption i {
 }
 
 .img1 figure {
-    width: 300px;
-    height: 450px;
+    width: 250px;
+    height: 400px;
     border-radius: 15px;
     background-color: white;
     display: flex;
@@ -393,8 +389,6 @@ aside figcaption i {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
     -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
 }
-
-
 
 .img1 figure img {
     width: 100%;
@@ -413,7 +407,17 @@ aside figcaption i {
     display: flex;
     flex-direction: column;
 }
-   
+
+.img2 figure {
+    height: 450px;
+    width: 300px;
+}
+
+.img2 figure img {
+    width: 100%;
+    height:30% ;
+    object-fit: cover;
+}
 /****************************************** FOOTER **************************/
 
 footer {
