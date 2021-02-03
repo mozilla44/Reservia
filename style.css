@@ -72,7 +72,7 @@ header a {
      padding-top: 30px;
  }
 
- #sincrire {
+ #subscribe {
     display: flex;
 }
 .logo:hover {
@@ -83,7 +83,7 @@ header a {
     padding-top: -2px;
 }
 
-#sincrire a {
+#subscribe a {
     color: #0065FC;
     font-weight: 900;
 }
@@ -91,23 +91,23 @@ header a {
 
 /*********************************************** slogan **********************************/
 
-#slogan {
+#catchprase {
     margin-bottom: 20px;
 }
 
-#slogan h1 {
+#catchprase h1 {
     font-size: 16px;
     margin-bottom: -10px;
 }
 
-#slogan p {
+#catchprase p {
     font-size: 12px;
     font-weight: 100;
 }
 
 /************************************************* BARRE RECHERCHE ********************************/
 
-.recherche {
+.searchbar {
     display: inline-flex;
     border: 1px solid #F2F2F2;
     border-radius: 10px;
@@ -144,19 +144,19 @@ header a {
 
 /***************************************************** FILTRES ******************************************************/
 
-#filtres {
+#filters-big {
     display: flex;
     flex-direction: column;
     flex flex-wrap: wrap;
     width: 90%;
     
 }
-#filtres2 {
+#filters-med {
     display: flex;
     width: 100%;
 }
 
-#filtres3 {
+#filters-small {
     display: flex;
     align-items: center;
     
@@ -166,7 +166,7 @@ header a {
     margin-bottom: 15px;
 }
 
-.bouton-filtres {
+.filter-button {
     display: flex;
     border: 1px solid rgba(128, 128, 128, 0.37);
     border-radius: 15px 15px;
@@ -176,7 +176,7 @@ header a {
     margin-left: 15px;
 }
 
-.cercle {
+.circle {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -189,23 +189,23 @@ header a {
     margin-left: -1px;
 }
 
-.bouton-filtres p {
+.filter-button p {
     font-weight: bold;
     padding: 12px;
 }
 
-#filtres p {
+#filters-big p {
     font-weight: bold;
 }
 
 
 /****************************************** nombre logements *********************/
-#nombre-logements {
+#number-flats {
     display: flex;
     align-items: center;
 }
 
-#nombre-logements p {
+#number-flats p {
     
     font-size: 12px;
     font-weight: 300;
@@ -229,7 +229,7 @@ header a {
 
 /**************************************** ARTICLE  **************************/
 
-#aparts {
+#flats {
     display: flex;
     gap: 30px;
 }
@@ -244,7 +244,7 @@ article h2 {
     font-weight: 900;
 }
 
-#affplus {
+#show-more {
     margin-left: 25px;
     font-size: 16px;
     margin-bottom: 30px;
@@ -288,7 +288,7 @@ article figure img {
     border-top-right-radius: 15px;
 }
 
-#fig-heb {
+#accomodation-figures {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -338,14 +338,14 @@ aside figcaption {
     align-items: center;
 }
 
-#populaires2 {
+#populars-title {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-#populaires2 i {
+#populars-title  i {
     margin-left: ;
 }
 
