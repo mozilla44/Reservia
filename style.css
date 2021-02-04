@@ -123,17 +123,19 @@ header a {
 
 .searchbox {
     border: 0;
-    padding-left: 1em;
+    
+    -webkit-appearance: none;
+    
 }
 
 .searchbutton {
-    
     border: none;
     padding: 0.5em;
     border-radius: 0;
     color: white;
     background-color: #0065FC;
-    border-radius:0px 0px 10px;
+    border-radius:0px 10px 10px 0px;
+    margin: 0px;
 }
 
 .searchbox::placeholder {
@@ -234,7 +236,7 @@ header a {
     gap: 30px;
 }
 
-article h3, article p, article i{
+article h3, article p, {
     font-size: 12px;
 }
 
@@ -294,11 +296,10 @@ article figure img {
     justify-content: center;
 }
 
-article figcaption {
-    padding-left: 10px;
+.grey-star {
+    color: #F2F2F2;
+    
 }
-
-
 /******************************************* ASIDE ****************************/
 
 aside {
@@ -333,11 +334,6 @@ aside figure img {
     border-bottom-left-radius: 15px;
 }
 
-aside figcaption {
-    margin-left: 10px;
-    align-items: center;
-}
-
 #populars-title {
     display: flex;
     flex-direction: row;
@@ -346,25 +342,27 @@ aside figcaption {
 }
 
 #populars-title  i {
-    margin-left: ;
+    font-size: 20px;
 }
 
 aside h3, aside p, aside i{
     font-size: 12px;
 }
 
-figcaption i {
-    color: #0065FC;
-}
-
-aside h2, aside i {
+aside h2 {
     font-size: 20px;
     font-weight: 900;
 }
 
-aside figcaption i {
+figcaption {
     font-size: 12px;
+    margin-left: 5%;
 }
+
+figcaption i {
+    color: #0065FC;
+}
+
 
 
 /****************************************** Activites *************************/
@@ -471,11 +469,6 @@ aside figcaption i {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-
-.img1 figcaption h3 {
-    margin-left: 15px;
-    font-weight: 900;
 }
 
 .img2 {
