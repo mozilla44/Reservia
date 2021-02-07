@@ -289,6 +289,14 @@ article figure img {
     justify-content: center;
 }
 
+#accomodations h2 {
+    margin-left: 45px;
+}
+
+h3#show-more  {
+    margin-left: 45px;
+}
+
 .grey-star {
     color: #F2F2F2;
     
@@ -479,12 +487,48 @@ footer {
 @media all and (max-width: 414px)
 {
     
+
+    .searchbar {
+        margin-left: 0px;
+    }
+
+    #filters-med {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #filters-small {
+        margin-left: -20px;
+    }
+    #catchprase {
+        margin-left: 0;
+    }
+
+    #filters-med {
+        margin-left: 0px;
+    }
+
+    #number-flats {
+        margin-left: 0px;
+    }
     
     #flats {
         display: flex;
         flex-direction: column-reverse;
         margin-left: 0;
         margin-right: 0;
+    }
+    
+    #populars h2 {
+        margin-left: 0px;
+    }
+
+    #populars-title i {
+        margin-right: 0px;
+    }
+
+    #accomodations h2 {
+        margin-left: 0px;
     }
 
     article {
@@ -501,6 +545,7 @@ footer {
     }
 
 
+
     article figure {
         width: 100%;
         margin-left: 0;
@@ -514,7 +559,13 @@ footer {
     
     aside {
         width: 100%;
-        background-color:#F2F2F2;
+        background-color: white;
+    }
+    
+    #populars figure {
+        width: 350px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     #show-more h3 
