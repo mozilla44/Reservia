@@ -361,6 +361,10 @@ aside figure img {
     margin-left: 40px;
 }
 
+#populars figure a {
+    display: flex;
+}
+
 aside h3, aside p, aside i{
     font-size: 12px;
 }
@@ -614,7 +618,7 @@ footer {
 
 /********************************************* AFFICHAGE TABLETTES ********************/
 
-@media all and (max-width: 850px)  {
+@media all and (max-width: 850px) and (min-width:376px) {
     
 
     #flats {
@@ -635,11 +639,12 @@ footer {
     }
 
     #activities-figures {
-        flex-direction: column;
+        
     }
     
     .one-img,.two-img {
         width: 100%;
+        height: 300px;
     }
 
     .two-img {
@@ -649,14 +654,14 @@ footer {
 
     .two-img figure {
         width: 50%;
-        
     }
 
-    #frioul,#ndm,#longchamps {
+    #activities-figures figure {
         height: 260px;
     }
+    
 
-    #frioul img,#ndm img,#longchamps img {
+    #activities-figures img {
         height: 210px;
     }
     
