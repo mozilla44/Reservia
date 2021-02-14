@@ -8,7 +8,8 @@ body {
 
 #container {
     height: 100%;
-    width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
 
 main {
@@ -61,6 +62,7 @@ header ul li {
 
 #header a {
     color: inherit;
+    padding-top: 30px;
 }
 
 #header ul a:hover {
@@ -68,13 +70,15 @@ header ul li {
     color: #0065FC;
 }
 
-header a {
-     padding-top: 30px;
- }
-
  #subscribe {
     display: flex;
 }
+
+#subscribe a {
+    color: #0065FC;
+    font-weight: 900;
+}
+
 .logo:hover {
     border: none;
 }
@@ -83,10 +87,6 @@ header a {
     margin-left: 20px;
 }
 
-#subscribe a {
-    color: #0065FC;
-    font-weight: 900;
-}
 
 
 /*********************************************** slogan **********************************/
@@ -113,8 +113,8 @@ header a {
     border: 1px solid #F2F2F2;
     border-radius: 10px;
     overflow: hidden;
-   margin-bottom: 30px;
-   margin-left: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .searchicon {
@@ -172,6 +172,17 @@ header a {
     margin-left: 15px;
 }
 
+.filter-button:hover {
+    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+}
+
+#filters-small a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .circle {
     height: 30px;
     width: 30px;
@@ -227,7 +238,7 @@ header a {
 
 #flats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
 
 }
@@ -258,6 +269,11 @@ article {
     
 }
 
+#accomodation-figures a,aside a,#activities a {
+    text-decoration: none;
+    color: inherit;
+}
+
 article figure {
     width: 200px;
     height: 150px;
@@ -286,16 +302,9 @@ article figure img {
 #accomodation-figures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-#accomodations h2 {
-    margin-left: 45px;
-}
-
-h3#show-more  {
-    margin-left: 45px;
-}
 
 .grey-star {
     color: #F2F2F2;
@@ -316,7 +325,7 @@ aside figure {
     flex-direction: row;
     align-self: center;
     height: 120px;
-    width: 80%;
+    
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
@@ -370,6 +379,11 @@ figcaption i {
     color: #0065FC;
 }
 
+div.stars-bottom  {
+    border : 3px solid red
+    
+}
+
 /****************************************** Activites *************************/
 
 #activities {
@@ -378,7 +392,7 @@ figcaption i {
 }
 
 #activities h2 {
-    margin-left: 27px;
+    margin-left: 1em;
 }
 
 #activities-figures {
@@ -403,29 +417,22 @@ figcaption i {
     border-top-right-radius: 15px;
 }
 
-.one-img {
+.one-img,.two-img {
     display: flex;
     flex-direction: column;
+    width: 25%;
 }
+
+.one-img img,.two-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+} 
 
 .one-img figure {
     height: 450px;
 }
 
-.one-img img {
-    width: 250px;
-    height: 400px;
-} 
-
-.two-img {
-    display: flex;
-    flex-direction: column;
-}
-
-.two-img img {
-    width: 250px;
-    object-fit: cover;
-}
 #pomegues {
     height:260px ;
 }
@@ -436,24 +443,19 @@ figcaption i {
 
 #frioul img {
     height: 100px;
-    object-fit: cover;
+    
 }
 
 #pomegues img {
     height: 210px;
-    object-fit: cover;
 }
 
-#ndm {
+#ndm, #longchamps  {
     height: 205px
 }
 
 #ndm img {
     height: 155px;
-}
-
-#longchamps {
-    height: 205px;
 }
 
 #longchamps img {
@@ -466,7 +468,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     
-    height: 100%;
     background-color: #F2F2F2;
     margin-bottom: -10px;
     padding-bottom: 15px;
@@ -484,10 +485,9 @@ footer {
 
 /***************************************************** AFFICHAGE IPHONE ********************************/
 
-@media all and (max-width: 414px)
+@media all and (max-width: 375px)
 {
     
-
     .searchbar {
         margin-left: 0px;
     }
@@ -500,6 +500,7 @@ footer {
     #filters-small {
         margin-left: -20px;
     }
+
     #catchprase {
         margin-left: 0;
     }
@@ -519,7 +520,7 @@ footer {
         margin-right: 0;
     }
     
-    #populars h2 {
+    #populars h2,#accomodations h2 {
         margin-left: 0px;
     }
 
@@ -527,24 +528,14 @@ footer {
         margin-right: 0px;
     }
 
-    #accomodations h2 {
-        margin-left: 0px;
-    }
-
     article {
-        width: 350px;
+        width: 100%;
         background-color: white;
     } 
 
-    #activities h2 {
+    #activities h2,h3#show-more  {
         margin-left: 0px;
     }
-
-    h3#show-more {
-        margin-left: 0px;
-    }
-
-
 
     article figure {
         width: 100%;
@@ -561,14 +552,16 @@ footer {
         width: 100%;
         background-color: white;
     }
-    
+
+    #stars-on-bottom  i {
+        border : 3px solid red
+    }
+
     #populars figure {
-        width: 350px;
+        width: 100%;
         margin-left: 0px;
         margin-right: 0px;
     }
-
-    #show-more h3 
 
     #activities h2 {
         margin-left: 6px;
@@ -577,11 +570,17 @@ footer {
     #activities-figures {
         width: 100%;
         justify-content: center;
+        flex-direction: column;
     }
 
+    .one-img,.two-img {
+        width: 100%;
+    }
+    
     #activities-figures figure {
-        width: 350px;
-        height: 180px;
+        margin: 20px 0px 20px 0px;
+        width: 100%;
+        height:180px;
     }
 
     #activities-figures img {
@@ -589,9 +588,8 @@ footer {
         height: 140px;
     }
 
-    
     footer {
-        width: 414px;
+        min-width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -610,8 +608,65 @@ footer {
         margin-bottom: 0px;
     }
 
+
+}
+
+
+/********************************************* AFFICHAGE TABLETTES ********************/
+
+@media all and (max-width: 850px)  {
     
 
-    
+    #flats {
+        display: flex;
+        flex-direction: column;
+    }
 
+    article,aside {
+        width: 100%;
+    }
+
+    article figure {
+        width: 40%;
+    }
+
+   aside {
+        margin-top: 2em;
+    }
+
+    #activities-figures {
+        flex-direction: column;
+    }
+    
+    .one-img,.two-img {
+        width: 100%;
+    }
+
+    .two-img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .two-img figure {
+        width: 50%;
+        
+    }
+
+    #frioul,#ndm,#longchamps {
+        height: 260px;
+    }
+
+    #frioul img,#ndm img,#longchamps img {
+        height: 210px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about,.our-flats,.help {
+        margin-left: 0px;
+        
+    }
 }
