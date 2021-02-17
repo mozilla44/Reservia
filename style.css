@@ -279,13 +279,9 @@ article figure {
     width: 200px;
     height: 150px;
     border-radius: 15px;
-    background-color: white;
     overflow: hidden;
     line-height: 5px;
     margin: 20px;
-    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
 }
 
 article figure img {
@@ -321,17 +317,20 @@ aside {
     margin-right: 30px;
 }
 
+figure {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+}
+
 aside figure {
     display: flex;
     flex-direction: row;
     align-self: center;
     height: 120px;
     
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
 }
 
 aside figure img {
@@ -418,10 +417,7 @@ aside figure img {
 }
 
 #activities-figures figure {
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(120,113,113,0.71);
+    
     margin: 20px 25px 20px 25px;
     display: flex;
     flex-direction: column;
