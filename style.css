@@ -33,10 +33,7 @@ li a {
 
 header {
     display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: -4px;
-    margin-bottom: 50px;
+    margin: 0 30 50 30px;
 }
 
 nav {
