@@ -216,6 +216,7 @@ header ul li {
 #number-flats p {
     font-size: 12px;
     font-weight: 300;
+    margin-left: 1em;
 }
 
 #info i {
@@ -359,19 +360,11 @@ aside figure img {
 
 #populars h2 {
     margin-left: 40px;
-}
-
-#populars figure a {
-    display: flex;
+    font-size: 20px;
 }
 
 aside h3, aside p, aside i{
     font-size: 12px;
-}
-
-aside h2 {
-    font-size: 20px;
-    font-weight: 900;
 }
 
 figcaption {
@@ -384,8 +377,27 @@ figcaption i {
 }
 
 div.stars-bottom  {
-    border : 3px solid red
+   
+    padding-top: 2;
+}
+
+aside figure a {
+    max-width: 35%;
+    display: flex;
+}
+
+aside figure h3 {
     
+    height: 3em;
+}
+
+aside figcaption {
+
+    width: 10em;
+}
+
+aside figure img {
+    min-width: 100%;
 }
 
 /****************************************** Activites *************************/
@@ -489,9 +501,14 @@ footer {
 
 /***************************************************** AFFICHAGE IPHONE ********************************/
 
-@media all and (max-width: 375px)
+@media all and  (max-width: 480px)
+
 {
     
+    header {
+        margin: 0px;
+    }
+
     .searchbar {
         margin-left: 0px;
     }
@@ -618,7 +635,7 @@ footer {
 
 /********************************************* AFFICHAGE TABLETTES ********************/
 
-@media all and (max-width: 850px) and (min-width:376px) {
+@media all and (min-width:481px) and (max-width: 850px)  {
     
 
     #flats {
@@ -638,9 +655,6 @@ footer {
         margin-top: 2em;
     }
 
-    #activities-figures {
-        
-    }
     
     .one-img,.two-img {
         width: 100%;
