@@ -627,6 +627,9 @@ footer {
         flex-direction: column-reverse;
     }
 
+    article {
+        margin-top: 1em;
+    }
     article,aside {
         width: 100%;
     }
