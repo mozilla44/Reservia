@@ -33,7 +33,7 @@ li a {
 
 header {
     display: flex;
-    
+    margin: 0 30 50 30px;
 }
 
 nav {
@@ -48,14 +48,13 @@ nav ul {
     justify-content: flex-end;
     width: 100%;
     margin-top: 2px;
-    
+    padding-right: 20px;
     flex-wrap: wrap-reverse;
 }
 header ul li {
-    
+    padding: 0 30px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 3em;
 }
 
 #header a {
@@ -70,13 +69,11 @@ header ul li {
 
  #subscribe {
     display: flex;
-    padding-right: 2.5em;
 }
 
 #subscribe a {
     color: #0065FC;
     font-weight: 900;
-    text-decoration: none;
 }
 
 .logo:hover {
