@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    max-width: 1280px;
+    max-width: 100%;
     margin: auto;
     margin-left: 30px;
     margin-right: 30px;
@@ -81,16 +81,14 @@ header ul li {
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 2em;
 }
-
-
 
 /*********************************************** slogan **********************************/
 
 #catchprase {
     margin-bottom: 20px;
-    margin-left: 20px;
+    
 }
 
 #catchprase h1 {
@@ -111,7 +109,7 @@ header ul li {
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 30px;
-    margin-left: 20px;
+    
 }
 
 .searchicon {
@@ -147,7 +145,8 @@ header ul li {
 #filters-med {
     display: flex;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 0.6em;
+    
 }
 
 #filters-small {
@@ -238,7 +237,6 @@ header ul li {
     display: flex;
     justify-content: space-between;
     margin: auto;
-
 }
 
 article h3, article p {
@@ -246,7 +244,7 @@ article h3, article p {
 }
 
 article h2 {
-    margin-left: 25px;
+    margin-left: 1em;
     font-size: 20px;
     font-weight: 900;
 }
@@ -273,7 +271,7 @@ article {
 }
 
 article figure {
-    width: 200px;
+    width: 27%;
     height: 150px;
     border-radius: 15px;
     overflow: hidden;
@@ -308,10 +306,10 @@ article figure img {
 /******************************************* ASIDE ****************************/
 
 aside {
-    width: 33%;
+    width: 35%;
     background-color:  #F2F2F2;
     border-radius: 15px;
-    margin-right: 30px;
+    
 }
 
 figure {
@@ -325,13 +323,12 @@ figure {
 aside figure {
     display: flex;
     flex-direction: row;
-    align-self: center;
     height: 120px;
     
 }
 
 aside figure img {
-    display: block;
+    
     width: 35%;
     height: 93%;
     margin-top: auto;
@@ -373,8 +370,7 @@ figcaption i {
 }
 
 div.stars-bottom  {
-   
-    padding-top: 2;
+   padding-top: 1em;
 }
 
 aside figure a {
@@ -476,11 +472,8 @@ aside figure img {
 footer {
     display: flex;
     flex-wrap: wrap;
-    
     background-color: #F2F2F2;
-    margin-bottom: -10px;
     padding-bottom: 15px;
-    overflow: hidden;
 }
 
 .help,.our-flats { 
@@ -497,7 +490,6 @@ footer {
 @media all and  (max-width: 480px)
 
 {
-    
     header {
         margin: 0px;
     }
@@ -530,8 +522,7 @@ footer {
     #flats {
         display: flex;
         flex-direction: column-reverse;
-        margin-left: 0;
-        margin-right: 0;
+        
     }
     
     #populars h2,#accomodations h2 {
@@ -633,7 +624,7 @@ footer {
 
     #flats {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     article,aside {
@@ -648,8 +639,7 @@ footer {
         margin-top: 2em;
     }
 
-    
-    .one-img,.two-img {
+     .one-img,.two-img {
         width: 100%;
         height: 300px;
     }
