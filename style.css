@@ -627,7 +627,7 @@ footer {
         flex-direction: column-reverse;
     }
 
-    article {
+    #accomodations {
         margin-top: 2em;
     }
     article,aside {
