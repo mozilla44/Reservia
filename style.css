@@ -124,6 +124,18 @@ header ul li {
 }
 
 .searchbutton {
+    display: block;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0;
+    color: white;
+    background-color: #0065FC;
+    border-radius:0px 10px 10px 0px;
+    margin: 0px;
+}
+
+.searchbutton-mobile {
+    display: none;
     border: none;
     padding: 0.5em;
     border-radius: 0;
@@ -497,6 +509,21 @@ footer {
     .searchbar {
         margin-left: 0px;
     }
+
+    .searchbutton {
+        display: none;
+    }
+
+    .searchbutton-mobile {
+        width: 3em;
+        display: block;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
 
     #filters-med {
         display: flex;
