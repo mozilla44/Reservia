@@ -1,3 +1,8 @@
+
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     margin-top: 1px;
@@ -30,8 +35,11 @@ li a {
 
 /******************************   HEADER   ***********************/
 
+li a,header a {
+    text-decoration: none;   
+}
+
 header a {
-    text-decoration: none;
     color: inherit;
     font-weight: 200;
 }
@@ -339,7 +347,7 @@ aside figure {
 
 aside figure img {
     
-    width: 35%;
+    width: 20%;
     height: 93%;
     margin-top: auto;
     margin-bottom: auto;
@@ -349,6 +357,9 @@ aside figure img {
     border-bottom-left-radius: 15px;
 }
 
+aside figcaption {
+    margin-left: 2em;
+}
 #populars-title {
     display: flex;
     flex-direction: row;
@@ -395,9 +406,7 @@ aside figure h3 {
 }
 
 aside figcaption {
-
     width: 10em;
-    margin-left: 0;
 }
 
 aside figure img {
